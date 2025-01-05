@@ -1,5 +1,5 @@
 import pymysql
-from config.db_config import db_config
+import db_config
 
 def load_data(data):
     try:

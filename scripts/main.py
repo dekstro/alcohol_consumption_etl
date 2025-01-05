@@ -1,11 +1,11 @@
-from scripts.extract import extract_data
-from scripts.transform import transform_data
-from scripts.load import load_data
-from scripts.visualize import visualize_data
+from extract import extract_data
+from transform import transform_data
+from load import load_data
+from visualize import visualize_data
 
 def main():
     # File path
-    file_path = "D:\alcohol_consumption_etl\data\world_alcohol_comsumption.csv"
+    file_path = "D:/alcohol_consumption_etl/data/world_alcohol_comsumption.csv"
 
     # Step 1: Extract
     raw_data = extract_data(file_path)
